@@ -27,26 +27,6 @@
     place-items: start;
 }
 
-.box-balloon {
-    max-width: 98%;
-    padding: 20px 20px;
-    margin: 20px;
-    min-width: min-content;
-    border-radius: 10px 10px 10px 10px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: #464444;
-    background:rgba(12, 117, 3, 0.35);;
-    box-shadow: 0 0 3px rgba(12, 117, 3, 0.35);
-    font-size: 0.9em;
-}
-
-.box-balloon i {
-    margin-right: 10px; /* Menambahkan margin di sebelah kanan ikon */
-    font-size: 1.2em; /* Menyesuaikan ukuran ikon */
-    color: #464444; /* Warna ikon */
-}
-
 .box-chat {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -158,6 +138,7 @@ input::placeholder {
     border: none;
     cursor: pointer;
     margin-left: auto;
+    
 }
 
 .attach-btn {

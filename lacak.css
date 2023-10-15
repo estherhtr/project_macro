@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+  }
+  
+  .navbar-inverse {
+    background-color: #084403;
+    font-size: 18px;
+  }
+
+  nav ul li a:hover
+{
+    background-color:#1B860A;
+    color: white;
+    border-radius: 5px;
+}
+
+.judul p
+{
+    margin-top: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 30px;
+}

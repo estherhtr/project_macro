@@ -19,7 +19,37 @@
     color: white;
     border-radius: 5px;
 }
-  
+
+.box {
+  width: 500px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.529);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image styling */
+.box img {
+  width: 25%;
+  height: auto;
+  pointer-events: none; /* Disable pointer events on the image to allow click on the box */
+  border-radius: 20px;
+}
+
+.box i {
+  font-size: 18px;
+  color: grey;
+}
+
+.hidden-input {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
   .container-section {
     margin-top: 0px;
     position: relative;

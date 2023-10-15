@@ -1,0 +1,21 @@
+td {
+    padding: 5px;
+}
+
+.space-between {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.card {
+    position: relative;
+}
+
+.card-img-top {
+    position: absolute;
+    top: 80px; /* Sesuaikan dengan jumlah margin yang diinginkan */
+    left: 550px; /* Sesuaikan dengan jumlah margin yang diinginkan */
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+}

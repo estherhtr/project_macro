@@ -19,55 +19,49 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-inverse" style="font-weight: bold;">
       <div class="container-fluid">
-        <a class="navbar-brand text-white" href="#"><img src="img/Logo.png" alt=""></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-light" aria-current="page" href="#"
-                >Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="About.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="Pengaduan.html">Pengaduan</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="forum.html">Forum</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Lacak Isu</a>
-            </li>
-          </ul>
-            <!--login-->
+        <a class="navbar-brand text-white" href="#"><img src="img/Logo.png" alt="" style="width: 50px; height: auto;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="btn-group dropstart" style="color: #084403;">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link active text-light" aria-current="page" href="Home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="About.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="Pengaduan.html">Pengaduan</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="forum.html">Forum</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-light" href="lacak.html">Lacak Isu</a>
+                  </li>
+              </ul>
+              <!--login-->
+
+              <div class="btn-group dropstart" style="color: #084403;">
                 <button type="button" class="btn btn-secondary dropdown-toggle" style = "color: #084403;"data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-user" style="color: #fff; border-radius: 2px;"></i>
                 </button>
                 <ul class="dropdown-menu">
-                    <li style="padding-left: 10px;"> <i class="fa-solid fa-user" style=""></i> Admin</li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li style="padding-left: 10px;"> <i class="fa-solid fa-user" style=""></i> User</li>
-                </ul>
-                </div>
+                  <li style="padding-left: 10px;">
+                      <a href="Login.html" class="dropdown-item">
+                          <i class="fa-solid fa-user"></i> Admin
+                      </a>
+                  </li>
+               </ul>
+              </div>
 
-            <!--akhir login-->
-        </div>
+              <!--akhir login-->
+          </div>
       </div>
-    </nav>
-    <!--akhir navbar-->
+  </nav>
+  <!--akhir navbar-->
     <div class="container-section">
 
       <div class="text">
@@ -88,31 +82,31 @@
     <!-- Section -->
       <section id="beranda">
         <div class="container">
-          <div class="row text-left mt-3">
-            <h4 style="color: green;">Telusuri Masalah</h4>
+          <div class="row text-left mt-5">
+            <h4 style="color: green; font-weight: bold; font-size: 30px;">Telusuri Masalah</h4>
           </div>
           <div class="row justify-content-center">
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 mt-4">
               <div class="card">
-                <img src="img/jalan rusak.png" class="card-img-top" alt="Gallery"/>
+                <img src="img/jalan rusak.png" class="card-img-top" alt="Gallery" />
                 <div class="card-body justify-content-center d-flex">
-                  <a href="#" class="card-text text-center card-inverse">Jalan Rusak</a>
+                  <a href="lacak.html" class="card-text text-center card-inverse">Jalan Rusak</a>
                 </div>
               </div>
-            </div>
-            <div class="col-md-4 mb-3">
+            </div>   
+            <div class="col-md-4 mb-3 mt-4">
               <div class="card">
                 <img src="img/banjir.png" class="card-img-top" alt="Gallery"/>
                 <div class="card-body justify-content-center d-flex">
-                  <a href="#" class="card-text text-center card-inverse">Banjir</a>
+                  <a href="lacak.html?category=banjir" class="card-text text-center card-inverse">Banjir</a>
                 </div>
               </div>
             </div>
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3 mt-4">
               <div class="card">
                 <img src="img/pencemaran.png" class="card-img-top" alt="Gallery"/>
                 <div class="card-body justify-content-center d-flex">
-                  <a href="#" class="card-text text-center card-inverse">Pencemaran Lingkungan</a>
+                  <a href="lacak.html?category=pencemaran" class="card-text text-center card-inverse">Pencemaran Lingkungan</a>
                 </div>
               </div>
             </div>
@@ -120,7 +114,7 @@
               <div class="card">
                 <img src="img/penebangan.png" class="card-img-top" alt="Gallery"/>
                 <div class="card-body justify-content-center d-flex">
-                  <a href="#" class="card-text text-center card-inverse">Penebangan Pohon</a>
+                  <a href="lacak.html?category=penebangan" class="card-text text-center card-inverse">Penebangan Pohon</a>
                 </div>
               </div>
             </div>
@@ -128,7 +122,7 @@
               <div class="card">
                 <img src="img/kekeringan.png" class="card-img-top" alt="Gallery"/>
                 <div class="card-body justify-content-center d-flex">
-                  <a href="#" class="card-text text-center card-inverse">Kekeringan</a>
+                  <a href="lacak.html?category=kekeringan" class="card-text text-center card-inverse">Kekeringan</a>
                 </div>
               </div>
             </div>
@@ -136,7 +130,7 @@
               <div class="card">
                 <img src="img/abrasi.png" class="card-img-top" alt="Gallery"/>
                 <div class="card-body justify-content-center d-flex">
-                  <a href="#" class="card-text text-center card-inverse">Abrasi</a>
+                  <a href="lacak.html?category=abrasi" class="card-text text-center card-inverse">Abrasi</a>
                 </div>
               </div>
             </div>
